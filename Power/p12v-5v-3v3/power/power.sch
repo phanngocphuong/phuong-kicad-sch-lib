@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ph_do_controller_hw-cache
-LIBS:ph_stm32_single_parameter_lcd_132x64_hw-cache
+LIBS:power-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -91,7 +90,7 @@ GND
 Wire Wire Line
 	4075 4900 4075 5500
 Wire Wire Line
-	4775 4800 4775 5500
+	4775 4800 4775 5400
 Wire Wire Line
 	5525 4950 5525 5500
 Wire Wire Line
@@ -426,4 +425,31 @@ F 3 "~" H 6450 2050 50  0001 C CNN
 	1    6450 2050
 	0    -1   -1   0   
 $EndComp
+Text HLabel 7025 4250 2    50   Input ~ 0
+3v3
+Wire Wire Line
+	7025 4250 6925 4250
+Wire Wire Line
+	6925 4250 6925 4500
+Text HLabel 7550 1875 2    50   Input ~ 0
+5v
+Wire Wire Line
+	7550 1875 7425 1875
+Wire Wire Line
+	7425 1875 7425 2050
+Text HLabel 3275 1550 0    50   Input ~ 0
+12v
+Wire Wire Line
+	3275 1550 3500 1550
+Wire Wire Line
+	3500 1550 3500 1775
+Text HLabel 4975 5525 3    50   Input ~ 0
+GND
+Wire Wire Line
+	4975 5525 4975 5400
+Wire Wire Line
+	4975 5400 4775 5400
+Connection ~ 4775 5400
+Wire Wire Line
+	4775 5400 4775 5500
 $EndSCHEMATC
