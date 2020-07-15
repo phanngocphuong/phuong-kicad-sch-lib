@@ -1,0 +1,5 @@
+# Prerequisites
+
+*.kicad_pcb-bak
+*.sch-bak
+fp-info-cache
